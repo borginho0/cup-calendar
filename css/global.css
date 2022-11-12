@@ -30,6 +30,10 @@ header{
 main{
     width: fit-content;
     margin-inline: auto;
+    /* espaço inteligente */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 h2{
